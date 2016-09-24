@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	libuv_client.c	6;"	d	file:
+OnConnect	libuv_client.c	/^void OnConnect(uv_connect_t* connect, int status){$/;"	f
+alloc_buffer	libuv_server.c	/^void alloc_buffer(uv_handle_t *handle, size_t suggested_size, uv_buf_t *buf) {$/;"	f
+echo_read	libuv_server.c	/^void echo_read(uv_stream_t *client, ssize_t nread, const uv_buf_t *buf) {$/;"	f
+echo_write	libuv_server.c	/^void echo_write(uv_write_t *req, int status) {$/;"	f
+loop	libuv_server.c	/^uv_loop_t *loop;$/;"	v
+main	libuv_client.c	/^int main(){$/;"	f
+main	libuv_server.c	/^int main() {$/;"	f
+on_new_connection	libuv_server.c	/^void on_new_connection(uv_stream_t *server, int status) {$/;"	f
+remove_sock	libuv_server.c	/^void remove_sock(int sig) {$/;"	f

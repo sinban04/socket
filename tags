@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	libuv-socket/libuv_client.c	6;"	d	file:
+MAXLINE	client.c	10;"	d	file:
+MAXLINE	server.c	10;"	d	file:
+OnConnect	libuv-socket/libuv_client.c	/^void OnConnect(uv_connect_t* connect, int status){$/;"	f
+OnRead	libuv-socket/libuv_client.c	/^void OnRead(uv_stream_t *read, ssize_t nread, const uv_buf_t *buf){$/;"	f
+OnWrite	libuv-socket/libuv_client.c	/^void OnWrite(uv_write_t *req, int status){$/;"	f
+SOCKET_ADDRESS	client.c	11;"	d	file:
+SOCKET_ADDRESS	server.c	11;"	d	file:
+alloc_buffer	libuv-socket/libuv_client.c	/^void alloc_buffer(uv_handle_t *handle, size_t suggested_size, uv_buf_t *buf){$/;"	f
+alloc_buffer	libuv-socket/libuv_server.c	/^void alloc_buffer(uv_handle_t *handle, size_t suggested_size, uv_buf_t *buf) {$/;"	f
+echo_read	libuv-socket/libuv_server.c	/^void echo_read(uv_stream_t *client, ssize_t nread, const uv_buf_t *buf) {$/;"	f
+echo_write	libuv-socket/libuv_server.c	/^void echo_write(uv_write_t *req, int status) {$/;"	f
+handle	libuv-socket/libuv_client.c	/^uv_pipe_t * handle;$/;"	v
+loop	libuv-socket/libuv_client.c	/^uv_loop_t * loop;$/;"	v
+loop	libuv-socket/libuv_server.c	/^uv_loop_t *loop;$/;"	v
+main	client.c	/^int main(int argc, char **argv)$/;"	f
+main	libuv-socket/libuv_client.c	/^int main(){$/;"	f
+main	libuv-socket/libuv_server.c	/^int main() {$/;"	f
+main	server.c	/^int main(int argc, char **argv)$/;"	f
+on_new_connection	libuv-socket/libuv_server.c	/^void on_new_connection(uv_stream_t *server, int status) {$/;"	f
+remove_sock	libuv-socket/libuv_server.c	/^void remove_sock(int sig) {$/;"	f
